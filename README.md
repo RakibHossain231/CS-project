@@ -10,3 +10,52 @@ such as brute-force attacks, SQL injection, session hijacking, and unauthorized 
 
 This project is implemented using **PHP and MySQL**, and multiple security layers have
 been added to ensure data protection, user privacy, and system reliability.
+
+
+## 🔐 Security Features Implemented
+
+The following security mechanisms have been implemented in this project:
+
+1. **Google reCAPTCHA Integration**  
+   Prevents automated bot attacks during authentication.  
+   *Implemented by: Rakib*
+2. **Strong Password Policy**  
+   Enforces strong passwords using length and complexity rules.  
+   *Implemented by: Jhorna*
+3. **OTP for Every Login**  
+   One-Time Password is required for each login attempt.  
+   *Implemented by: Rakib*
+4. **Email Verification via OTP**  
+   User email is verified using OTP before account access.  
+   *Implemented by: Rakib*
+5. **Password Hashing**  
+   User passwords are securely stored using hashing techniques.  
+   *Implemented by: Tamim*
+6. **Blacklisted IP Protection**  
+   Blocks malicious IP addresses from accessing the system.  
+   *Implemented by: Labiba*
+
+7. **Session Auto Logout**  
+   Automatically logs out users after inactivity.  
+   *Implemented by: Labiba*
+8. **CSRF Protection**  
+   Prevents Cross-Site Request Forgery attacks.  
+   *Implemented by: Labiba*
+9. **Rate Limiting (Wrong Password Attempts)**  
+   Limits repeated failed login attempts to prevent brute-force attacks.  
+   *Implemented by: Labiba*
+10. **SQL Injection Protection**  
+    Protects database queries using prepared statements.  
+    *Implemented by: Jhorna*
+11. **JavaScript Injection Protection (Input Sanitization)**  
+    Prevents XSS attacks by sanitizing user inputs.  
+    *Implemented by: Tamim*
+12. **Secure Session Termination**  
+    Ensures proper destruction of sessions on logout.  
+    *Implemented by: Tamim*
+13. **Role-Based Authentication**  
+    Provides different access levels based on user roles.  
+    *Implemented by: Jhorna*
+14. **Input Validation using Regular Expressions**  
+    Validates user input formats to prevent malicious data submission.  
+    *Implemented by: Rakib*
