@@ -59,3 +59,50 @@ The following security mechanisms have been implemented in this project:
 14. **Input Validation using Regular Expressions**  
     Validates user input formats to prevent malicious data submission.  
     *Implemented by: Rakib*
+
+## 🛠️ Technologies Used
+
+The project is developed using the following technologies and tools:
+
+- **PHP (Core PHP)**  
+  Used for server-side logic, authentication, OTP handling, and security implementation.
+- **MySQL**  
+  Used as the relational database to store user data, OTP records, sessions, and logs.
+- **HTML5 & CSS3**  
+  Used for structuring and styling the user interface.
+- **JavaScript**  
+  Used for client-side validation and improving user interaction.
+- **PHPMailer**  
+  Used to send OTP emails securely to users.
+- **Google reCAPTCHA**  
+  Integrated to protect the system from automated bot attacks.
+- **Apache Server (XAMPP)**  
+  Used as the local development server environment.
+
+## 🗄️ Database Setup
+
+Follow the steps below to set up the database for this project:
+
+1. Open **phpMyAdmin** from XAMPP control panel.
+2. Create a new database named: **farmsystem**
+3. Navigate to the **Import** tab.
+4. Import the SQL file located at: **database/farmsystem.sql**
+   
+This will automatically create all required tables such as user information, OTP storage,
+and other related data used for authentication and security.
+
+## 🚀 How to Run the Project
+
+To run this project on your local machine, follow the steps below:
+
+1. Install **XAMPP** on your system.
+2. Start **Apache** and **MySQL** from the XAMPP Control Panel.
+3. Copy the project folder and paste it into: **C:\xampp\htdocs\**
+4. Open a web browser and go to: **http://localhost/CS-project/**
+5. Make sure the database is properly imported before using the application.
+   The application is now ready to use on localhost
+
+   “We used PHP and MySQL with XAMPP, imported the database using phpMyAdmin, and ran the project through localhost.”
+
+
+
