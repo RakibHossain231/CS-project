@@ -98,7 +98,7 @@ To run this project on your local machine, follow the steps below:
 1. Install **XAMPP** on your system.
 2. Start **Apache** and **MySQL** from the XAMPP Control Panel.
 3. Copy the project folder and paste it into: **C:\xampp\htdocs\**
-4. Open a web browser and go to: **http://localhost/CS-project/**
+4. Open a web browser and go to: ****[Click](http://localhost/CS-project/login.php)**
 5. Make sure the database is properly imported before using the application.
    The application is now ready to use on localhost
 
