@@ -86,7 +86,7 @@ Follow the steps below to set up the database for this project:
 1. Open **phpMyAdmin** from XAMPP control panel.
 2. Create a new database named: **farmsystem**
 3. Navigate to the **Import** tab.
-4. Import the SQL file located at: **database/farmsystem.sql**
+4. Import the SQL file located at: **[Click](https://github.com/RakibHossain231/CS-project/tree/main/Database)**
    
 This will automatically create all required tables such as user information, OTP storage,
 and other related data used for authentication and security.
